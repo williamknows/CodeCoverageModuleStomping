@@ -1,6 +1,6 @@
 # CodeCoverageModuleStomping
 
-Tools to support code coverage based module stomping.  Based on the blog post: http://williamknowles.io/?p=14
+Tools to support code coverage based module stomping.  Based on the blog post: http://williamknowles.io/living-dangerously-with-module-stomping-leveraging-code-coverage-analysis-for-injecting-into-legitimately-loaded-dlls/
 
 parse-drcov-identify-untouched.py - analyses DynamoRIO's drcov output.  Run the script as follows, with the argument being the drcov output file.  It's Python3 with the only non-standard dependency being PrettyTable.
 
